@@ -1,0 +1,9 @@
+create database accounts
+create table
+CREATE TABLE users (
+    id int AUTO_INCREMENT PRIMARY key,
+    lastAttempt timestamp DEFAULT CURRENT_TIMESTAMP,
+    failledAttempt int DEFAULT 0,
+    username varchar(250)not null UNIQUE,
+    password varchar(250)not null  
+    );
